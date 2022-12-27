@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_1"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_5"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_6"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/ruin_loot_7"
+        }
+      ]
+    }
+  ]
+}
