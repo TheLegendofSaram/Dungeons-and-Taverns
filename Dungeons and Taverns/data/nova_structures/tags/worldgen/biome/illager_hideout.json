@@ -1,0 +1,51 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_beach",
+    "#minecraft:is_river",
+    "#minecraft:is_taiga",
+    "#minecraft:is_forest",
+    "#minecraft:is_badlands",
+    "#minecraft:is_hill",
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "minecraft:mushroom_fields",
+    "minecraft:ice_spikes",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "minecraft:snowy_plains",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:desert",
+	"minecraft:dripstone_caves",
+	"minecraft:lush_caves",
+	{
+      "id": "mcia:caves",
+      "required": false
+    },
+	{
+      "id": "mcia:sparse_forest",
+      "required": false
+    },
+	{
+      "id": "mcia:mushroom_caves",
+      "required": false
+    },
+	{
+      "id": "mcia:inferno",
+      "required": false
+    },
+	{
+      "id": "mcia:frozen_caves",
+      "required": false
+    },
+	{
+      "id": "mcia:cold_caves",
+      "required": false
+    },
+	{
+      "id": "mcia:bog",
+      "required": false
+    }
+  ]
+}
