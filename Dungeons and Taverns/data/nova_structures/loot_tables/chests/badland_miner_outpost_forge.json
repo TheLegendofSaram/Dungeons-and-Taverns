@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 2.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -17,13 +17,7 @@
             }
           ],
           "name": "minecraft:iron_pickaxe"
-        }
-      ]
-    },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -40,7 +34,7 @@
       ]
     },
     {
-      "rolls": 6,
+      "rolls": 3,
       "bonus_rolls": 0.0,
       "entries": [
         {

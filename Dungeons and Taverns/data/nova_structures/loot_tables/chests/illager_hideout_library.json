@@ -11,8 +11,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -33,6 +33,25 @@
             }
           ],
           "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
         }
       ]
     },
@@ -73,35 +92,6 @@
             }
           ],
           "name": "minecraft:book"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 30.0,
-                "max": 40.0
-              },
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:book"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock"
         }
       ]
     }

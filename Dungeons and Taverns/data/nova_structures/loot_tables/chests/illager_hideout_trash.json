@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 5,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,8 +11,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 7.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
@@ -26,8 +26,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 7.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
@@ -41,8 +41,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
@@ -56,8 +56,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -71,8 +71,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 7.0,
-                "max": 9.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }
@@ -86,8 +86,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 12.0
+                "min": 2.0,
+                "max": 6.0
               },
               "add": false
             }
@@ -101,8 +101,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }

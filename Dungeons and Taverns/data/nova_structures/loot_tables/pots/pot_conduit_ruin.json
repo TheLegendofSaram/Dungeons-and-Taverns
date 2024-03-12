@@ -35,10 +35,10 @@
           "name": "minecraft:gravel",
           "weight": 5
         },
-		{
+	{
           "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/junk",
-		  "weight": 5
+          "value": "minecraft:gameplay/fishing/junk",
+          "weight": 5
         },
 		{
           "type": "minecraft:item",
@@ -154,7 +154,7 @@
         },
 		{
           "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/fish",
+          "value": "minecraft:gameplay/fishing/fish",
 		  "weight": 4
         },
 		{
@@ -255,7 +255,7 @@
         },
 		{
           "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/treasure",
+          "value": "minecraft:gameplay/fishing/treasure",
 		  "weight": 2
         },
         {

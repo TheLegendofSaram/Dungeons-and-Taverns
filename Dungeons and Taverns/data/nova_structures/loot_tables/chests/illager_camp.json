@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
      {
-      "rolls": 1,
+      "rolls": 3,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -19,55 +19,15 @@
             }
           ],
           "name": "minecraft:gold_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.4
-              },
-              "add": false
-            }
-          ],
           "name": "minecraft:crossbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              },
-              "add": false
-            }
-          ],
           "name": "minecraft:name_tag"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -75,20 +35,14 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": -1.0,
-                "max": 16.0
+                "min": 2.0,
+                "max": 6.0
               },
               "add": false
             }
           ],
           "name": "minecraft:arrow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -103,13 +57,7 @@
             }
           ],
           "name": "minecraft:apple"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -117,20 +65,14 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
+                "min": 1.0,
                 "max": 2.0
               },
               "add": false
             }
           ],
           "name": "minecraft:emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -138,27 +80,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
+                "min": 1.0,
                 "max": 2.0
               },
               "add": false
             }
           ],
           "name": "minecraft:iron_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 70
-        },
-        {
-          "type": "item",
-          "name": "minecraft:sentry_armor_trim_smithing_template"
         }
       ]
     },

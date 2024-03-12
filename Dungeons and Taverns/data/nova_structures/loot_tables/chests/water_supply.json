@@ -38,7 +38,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:gameplay/fishing/fish"
+          "value": "minecraft:gameplay/fishing/fish"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 2,
+      "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "rolls": 6,
+      "rolls": 3,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -91,12 +91,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:sentry_armor_trim_smithing_template",
-          "weight": 2
-        },
-		{
-          "type": "item",
-          "name": "minecraft:vex_armor_trim_smithing_template"
+          "name": "minecraft:sentry_armor_trim_smithing_template"
         }
       ]
     }

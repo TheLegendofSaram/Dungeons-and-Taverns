@@ -2,53 +2,16 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.25,
-                "max": 0.75
-              }
-            }
-          ],
-          "name": "minecraft:fishing_rod"
-        },
-		{
-          "type": "minecraft:empty",
-          "weight": 5
-        }
-      ]
-    },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.25,
-                "max": 0.75
-              }
-            }
-          ],
-          "name": "minecraft:stone_axe"
-        },
-		{
-          "type": "minecraft:empty",
-          "weight": 5
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/underwater_ruin_small"
         }
       ]
     },
     {
-      "rolls": 6,
+      "rolls": 3,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -92,38 +55,6 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:wheat"
-        },
-		{
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
                 "max": 10.0
               },
               "add": false
@@ -131,7 +62,7 @@
           ],
           "name": "minecraft:gold_nugget"
         },
-		{
+	{
           "type": "minecraft:item",
           "weight": 3,
           "functions": [
@@ -147,7 +78,7 @@
           ],
           "name": "minecraft:prismarine_shard"
         },
-		{
+	{
           "type": "minecraft:item",
           "weight": 3,
           "functions": [
@@ -162,22 +93,6 @@
             }
           ],
           "name": "minecraft:prismarine_crystals"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:rotten_flesh"
         }
       ]
     },
@@ -192,25 +107,6 @@
         {
           "type": "item",
           "name": "minecraft:coast_armor_trim_smithing_template"
-        },
-		{
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "decoration": "red_x",
-              "function": "minecraft:exploration_map",
-              "skip_existing_chunks": false,
-              "zoom": 1
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "filled_map.buried_treasure"
-              }
-            }
-          ],
-          "name": "minecraft:map",
-          "weight": 10
         }
       ]
     }

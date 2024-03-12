@@ -2,41 +2,23 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 5,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 4
-        },
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/woodland_mansion"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
@@ -45,7 +27,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 16.0,
+                "max": 4.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -61,13 +43,12 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
-          ],
-          "weight": 8
+          ]
         },
         {
           "type": "minecraft:item",
@@ -77,13 +58,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 6
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -146,7 +127,8 @@
               "function": "minecraft:set_stew_effect"
             }
           ],
-          "name": "minecraft:suspicious_stew"
+          "name": "minecraft:suspicious_stew",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -165,7 +147,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:beetroot",
-          "weight": 8
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -180,7 +162,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -196,17 +178,22 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 8
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_candle",
 		  "functions": [
             {
               "add": false,
@@ -218,23 +205,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_candle",
-		  "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 16.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 8
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -244,7 +215,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -260,16 +231,11 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 80
+          "weight": 200
         },
         {
           "type": "item",
-          "name": "minecraft:sentry_armor_trim_smithing_template",
-          "weight": 2
-        },
-		{
-          "type": "item",
-          "name": "minecraft:vex_armor_trim_smithing_template"
+          "name": "minecraft:sentry_armor_trim_smithing_template"
         }
       ]
     }

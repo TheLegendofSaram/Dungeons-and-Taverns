@@ -2,11 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-      },
+      "rolls": 1,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -38,7 +34,7 @@
       ]
     },
     {
-      "rolls": 5,
+      "rolls": 3,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -50,7 +46,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 7.0
+                "max": 5.0
               },
               "add": false
             }
@@ -65,7 +61,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
+                "min": 3.0,
                 "max": 10.0
               },
               "add": false

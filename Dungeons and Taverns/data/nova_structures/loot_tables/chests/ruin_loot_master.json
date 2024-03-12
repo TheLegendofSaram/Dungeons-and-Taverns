@@ -6,31 +6,31 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_1"
+          "value": "nova_structures:chests/dungeon_1"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_2"
+          "value": "nova_structures:chests/dungeon_2"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_3"
+          "value": "nova_structures:chests/dungeon_3"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_4"
+          "value": "nova_structures:chests/dungeon_4"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_5"
+          "value": "nova_structures:chests/dungeon_5"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_6"
+          "value": "nova_structures:chests/dungeon_6"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "nova_structures:chests/dungeon_7"
+          "value": "nova_structures:chests/dungeon_7"
         }
       ]
     },

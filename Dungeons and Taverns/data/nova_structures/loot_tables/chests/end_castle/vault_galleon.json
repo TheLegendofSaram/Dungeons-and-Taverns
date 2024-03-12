@@ -1,0 +1,488 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Splash Potion of Levitation",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 400
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of Levitation",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 200
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lingering Potion of Levitation",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 400
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "name": "minecraft:lingering_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Arrow of Levitation",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 80
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "slow_falling"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "splash_potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "slow_falling"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lingering_potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "slow_falling"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "slow_falling"
+            }
+          ]
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            }
+          ],
+          "name": "minecraft:end_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Arrow of Nausea",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 5578058,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 200
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 16,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tipped_arrow",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8,
+                "min": 3,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:popped_chorus_fruit"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:shulker_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 4,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 4,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 1,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 3,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:spire_armor_trim_smithing_template"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:eye_armor_trim_smithing_template",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lodestone",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

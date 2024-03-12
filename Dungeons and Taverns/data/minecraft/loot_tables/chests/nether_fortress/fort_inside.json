@@ -14,7 +14,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0
+                "max": 2.0
               },
               "add": false
             }
@@ -29,7 +29,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
+                "min": 1.0,
                 "max": 2.0
               },
               "add": false
@@ -59,11 +59,7 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
-      },
+      "rolls": 2,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -74,7 +70,7 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
+                "max": 0.9,
                 "min": 0.0
               },
               "function": "minecraft:set_damage"
@@ -88,8 +84,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5.0,
-                "max": 12.0
+                "min": 2.0,
+                "max": 6.0
               },
               "add": false
             }
@@ -149,56 +145,9 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 15.0,
-        "min": 8.0
-      },
+      "rolls": 2,
       "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:bone"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:arrow"
-        },
         {
           "type": "minecraft:item",
           "functions": [

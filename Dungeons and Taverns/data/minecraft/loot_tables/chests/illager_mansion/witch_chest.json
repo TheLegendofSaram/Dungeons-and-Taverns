@@ -2,11 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
-      },
+      "rolls": 2,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "rolls": 8,
+      "rolls": 4,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -153,7 +149,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -188,25 +184,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pufferfish"
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 80
-        },
-        {
-          "type": "item",
-          "name": "minecraft:sentry_armor_trim_smithing_template",
-          "weight": 2
-        },
-		{
-          "type": "item",
-          "name": "minecraft:vex_armor_trim_smithing_template"
         }
       ]
     }

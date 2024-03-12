@@ -8,7 +8,7 @@
         "processors": "nova_structures:citadel_degradation",
         "projection": "rigid"
       },
-      "weight": 12
+      "weight": 7
     },
 	{
       "element": {

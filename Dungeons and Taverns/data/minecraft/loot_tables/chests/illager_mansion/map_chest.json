@@ -104,7 +104,7 @@
           "functions": [
             {
               "add": false,
-              "count": 12,
+              "count": 2,
               "function": "minecraft:set_count"
             }
           ],
@@ -112,13 +112,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 6,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:book"
         }
       ]
@@ -129,68 +122,26 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:orange_banner"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:red_banner"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:gray_banner"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:purple_banner"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:yellow_banner"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:blue_banner"
         }
       ]

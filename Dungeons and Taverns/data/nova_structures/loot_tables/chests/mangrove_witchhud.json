@@ -7,7 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 15,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -19,7 +18,7 @@
       ]
     },
     {
-      "rolls": 3,
+      "rolls": 2,
       "bonus_rolls": 0.0,
       "entries": [
         {

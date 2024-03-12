@@ -14,7 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 2
             }
           ],
           "name": "minecraft:golden_apple"
@@ -33,8 +33,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 7.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 5.0
               },
               "add": false
             }
@@ -49,8 +49,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5,
-                "max": 8
+                "min": 2,
+                "max": 6
               },
               "add": false
             }
@@ -65,24 +65,14 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5,
-                "max": 6
+                "min": 3,
+                "max": 5
               },
               "add": false
             }
           ],
           "name": "minecraft:lapis_lazuli"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -91,20 +81,14 @@
               "function": "minecraft:limit_count",
               "limit": {
                 "type": "minecraft:uniform",
-                "min": 8.0,
-                "max": 10.0
+                "min": 2.0,
+                "max": 5.0
               },
               "add": false
             }
           ],
           "name": "minecraft:emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "bonus_rolls": 0.0,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -113,8 +97,8 @@
               "function": "minecraft:limit_count",
               "limit": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
+                "min": 2.0,
+                "max": 5.0
               },
               "add": false
             }
@@ -129,8 +113,8 @@
               "function": "minecraft:limit_count",
               "limit": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
+                "min": 1.0,
+                "max": 3.0
               },
               "add": false
             }

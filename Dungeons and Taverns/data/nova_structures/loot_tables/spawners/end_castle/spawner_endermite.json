@@ -1,0 +1,213 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chorus_fruit",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:end_stone",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Arrow of Levitation",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13565951,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "duration": 80
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tipped_arrow",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "strong_strength"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "strong_leaping"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "healing"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1,
+                "type": "uniform"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1,
+                "type": "uniform"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2,
+                "type": "uniform"
+              }
+            }
+          ],
+          "weight": 10
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "End Castle Vault Key",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:trial_key",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "empty",
+          "weight": 80
+        }
+      ]
+    }
+  ]
+}

@@ -62,8 +62,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;11743532]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        11743532
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -82,8 +94,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;2437522]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        2437522
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -102,8 +126,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;4312372]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        4312372
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -122,8 +158,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;14602026]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        14602026
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -142,8 +190,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;3887386]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        3887386
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -162,8 +222,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;15435844]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        15435844
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -182,8 +254,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;14188952]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        14188952
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -202,8 +286,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;6719955]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        6719955
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -222,8 +318,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;5320730]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        5320730
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -242,8 +350,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;15790320]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        15790320
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -262,8 +382,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;12801229]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        12801229
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -282,8 +414,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;8073150]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        8073150
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -302,8 +446,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;1973019]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        1973019
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -322,8 +478,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;4408131]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        4408131
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -342,8 +510,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;2651799]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        2651799
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -362,8 +542,20 @@
               "add": false
             },
             {
-              "function": "set_nbt",
-              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;11250603]}]}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 3,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        11250603
+                      ]
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
