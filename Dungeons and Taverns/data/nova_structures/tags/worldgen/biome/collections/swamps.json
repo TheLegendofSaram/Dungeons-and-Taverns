@@ -32,7 +32,7 @@
       "required": false
     },
 	{
-      "id": "mcia:bog",
+      "id": "cliffs_under_trees:bog",
       "required": false
     }
   ]

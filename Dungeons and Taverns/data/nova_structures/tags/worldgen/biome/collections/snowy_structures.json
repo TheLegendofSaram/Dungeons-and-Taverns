@@ -112,15 +112,15 @@
       "required": false
     },
 	{
-      "id": "mcia:tundra",
+      "id": "cliffs_under_trees:tundra",
       "required": false
     },
 	{
-      "id": "mcia:glacier_valley",
+      "id": "cliffs_under_trees:glacier_valley",
       "required": false
     },
 	{
-      "id": "mcia:snowy_old_growth_taiga",
+      "id": "cliffs_under_trees:snowy_old_growth_taiga",
       "required": false
     }
   ]

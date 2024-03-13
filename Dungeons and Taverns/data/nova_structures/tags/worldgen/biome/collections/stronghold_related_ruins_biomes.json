@@ -478,35 +478,35 @@
       "required": false
     },
 	{
-      "id": "mcia:caves",
+      "id": "cliffs_under_trees:caves",
       "required": false
     },
 	{
-      "id": "mcia:sparse_forest",
+      "id": "cliffs_under_trees:sparse_forest",
       "required": false
     },
 	{
-      "id": "mcia:mushroom_caves",
+      "id": "cliffs_under_trees:mushroom_caves",
       "required": false
     },
 	{
-      "id": "mcia:inferno",
+      "id": "cliffs_under_trees:inferno",
       "required": false
     },
 	{
-      "id": "mcia:frozen_caves",
+      "id": "cliffs_under_trees:frozen_caves",
       "required": false
     },
 	{
-      "id": "mcia:cold_caves",
+      "id": "cliffs_under_trees:cold_caves",
       "required": false
     },
 	{
-      "id": "mcia:bog",
+      "id": "cliffs_under_trees:bog",
       "required": false
     },
 	{
-      "id": "mcia:tundra",
+      "id": "cliffs_under_trees:tundra",
       "required": false
     }
   ]

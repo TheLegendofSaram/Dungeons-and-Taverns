@@ -35,11 +35,11 @@
       "required": false
     },
 	{
-      "id": "mcia:oasis",
+      "id": "cliffs_under_trees:oasis",
       "required": false
     },
 	{
-      "id": "mcia:shrubland",
+      "id": "cliffs_under_trees:shrubland",
       "required": false
     }
   ]

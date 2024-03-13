@@ -1,6 +1,10 @@
 {
 	"pack": {
 		"pack_format": 32,
+		"supported_formats": {
+			"min_inclusive": 32,
+			"max_inclusive": 32767
+		},
 		"description": "Adds 57 New structures to the Nether and Overworld"
 	}
 }
