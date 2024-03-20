@@ -94,7 +94,14 @@
                   "bold": false,
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 720
+              }
             }
           ],
           "name": "minecraft:trial_key",

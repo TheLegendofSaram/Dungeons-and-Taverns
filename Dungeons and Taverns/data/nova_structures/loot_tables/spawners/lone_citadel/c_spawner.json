@@ -164,7 +164,14 @@
                   "bold": false,
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 713
+              }
             }
           ],
           "weight": 10
